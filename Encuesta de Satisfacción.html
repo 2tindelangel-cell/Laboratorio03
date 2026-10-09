@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Satisfacción</title>
+    <style>
+        h1{
+            color: darkcyan;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        body{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1>Encuesta de Satisfacción</h1>
+    <form>
+  <p>¿Cuál es tu nivel de satisfacción?</p>
+
+  <label>
+    <input type="radio" name="satisfaccion" value="malo"> Malo
+  </label>
+
+  <label>
+    <input type="radio" name="satisfaccion" value="regular"> Regular
+  </label>
+
+  <label>
+    <input type="radio" name="satisfaccion" value="bueno" checked> Bueno
+  </label>
+
+  <label>
+    <input type="radio" name="satisfaccion" value="excelente"> Excelente
+  </label>
+  <br>
+   <p>Selecciona tus temas de interés:</p>
+
+  <label>
+    <input type="checkbox" name="intereses" value="tecnologia"> Tecnología
+  </label>
+
+  <label>
+    <input type="checkbox" name="intereses" value="salud"> Salud y Bienestar
+  </label>
+
+  <label>
+    <input type="checkbox" name="intereses" value="deportes"> Deportes
+  </label>
+
+  <label>
+    <input type="checkbox" name="intereses" value="arte"> Arte y Cultura
+  </label>
+  <br>
+  <p>País:</p>
+  <label for="">País de Origen</label>
+  <select name="País de Origen" id="País de Origen">
+  <option value="1">México</option>
+  <option value="2">Estados Unidos</option>
+  <option value="3">El Salvador</option>
+  <option value="4">Colombia</option>
+  <option value="5">Venecuela</option>
+  <option value="6">Argentina</option>
+  </select>
+</form>
+<br>
+<a href="index.html">Volver a la Pagina Principal</a>
+</body>
+</html>
